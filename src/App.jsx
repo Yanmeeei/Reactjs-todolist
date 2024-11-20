@@ -1,10 +1,14 @@
+import TodoInput from "./components/TodoInput.jsx";
+import TodoList from "./components/TodoList.jsx";
+
 function App() {
 
     // return react fragments jsx (functional component)
     return (
-        <>
-            <div>{4 * 4}</div>
-        </>
+        <main>
+            <TodoInput/>
+            <TodoList/>
+        </main>
     )
 }
 
