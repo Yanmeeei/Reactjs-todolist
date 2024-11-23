@@ -46,7 +46,7 @@ function App() {
 
         localTodos = JSON.parse(localTodos).todos
         setTodos(localTodos)
-    }, [])  // whenever a page reload
+    }, [])  // whenever a page reload, read the local storage and restore the todos
 
     // return react fragments jsx (functional component)
     return (
